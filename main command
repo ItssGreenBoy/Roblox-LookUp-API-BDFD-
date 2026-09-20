@@ -1,4 +1,4 @@
-`$httpAddHeader[x-api-key;0dc1774fdb0037cc203525dc91e2e8c1]
+$httpAddHeader[x-api-key;0dc1774fdb0037cc203525dc91e2e8c1]
 $httpGet[https://roblox-lookup-api.onrender.com/api/user/$message]
 
 $if[$httpStatus==200]
@@ -27,5 +27,5 @@ $ephemeral
 $description[❌ Couldn't find a Roblox user called `$message`.]
 $color[#ED4245]
 $endif
-$endif`
+$endif
 
