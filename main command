@@ -1,5 +1,3 @@
-# MAIN COMMAND
-trigger: `trigger` or maybe `?user`( thats how i use )
 `$httpAddHeader[x-api-key;0dc1774fdb0037cc203525dc91e2e8c1]
 $httpGet[https://roblox-lookup-api.onrender.com/api/user/$message]
 
